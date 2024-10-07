@@ -1,0 +1,9 @@
+[package]
+name = "fl-codegen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "4.5.19"
+hmac = "0.12.1"
+sha1 = "0.10.6"
