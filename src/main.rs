@@ -39,8 +39,9 @@ fn main() {
     
     println!("Family Link Code: {}", generate_fl_code(shared_code, curr_time_secs));
     print!(
-        "Time left: {:02}:{:02}",
+        "Time left: {:02}:{:02} ({} secs)",
         remaining_time(curr_time_secs) / 60,
-        remaining_time(curr_time_secs) % 60
+        remaining_time(curr_time_secs) % 60,
+        remaining_time(curr_time_secs)
     );
 }
